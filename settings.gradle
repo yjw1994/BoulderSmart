@@ -1,0 +1,2 @@
+include ':app',':filechooser',':sticker',':library'
+rootProject.name='BoulderSmart'

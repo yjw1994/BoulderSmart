@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llCommentView"
+    android:layout_margin="@dimen/_3sdp"
+    android:background="@drawable/bg_square_border"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.bouldersmart.view.CustomTextView
+        android:id="@+id/tvNameComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="User 1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:font_text="@string/OpenSans_Bold" />
+
+    <com.bouldersmart.view.CustomTextView
+        android:id="@+id/tvComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="@string/welcome_user"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11sdp"
+        app:font_text="@string/OpenSans_Regular" />
+</LinearLayout>

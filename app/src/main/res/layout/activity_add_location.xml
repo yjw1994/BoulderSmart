@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <com.bouldersmart.view.CustomEditText
+            android:id="@+id/etLocationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edit_square_bg"
+            android:hint="@string/enter_location_name"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            app:font_et="@string/OpenSans_Regular" />
+
+        <com.bouldersmart.view.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:inputType="text"
+            android:singleLine="true"
+            android:text="@string/select_climbing_location"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_12sdp"
+            app:font_et="@string/OpenSans_Regular" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/btnUploadCover">
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/mpAddLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp" />
+
+                <ImageView
+                    android:id="@+id/ivCenterLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_pin_location_32dp" />
+            </RelativeLayout>
+
+            <com.bouldersmart.view.CustomButton
+                android:id="@+id/btnUploadCover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btnSaveLocation"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@drawable/btn_bg_square"
+                android:text="@string/upload_cover_photo"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_14sdp"
+                app:font_btn="@string/OpenSans_Regular" />
+
+            <com.bouldersmart.view.CustomButton
+                android:id="@+id/btnSaveLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/btn_bg_square"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_14sdp"
+                app:font_btn="@string/OpenSans_Regular" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

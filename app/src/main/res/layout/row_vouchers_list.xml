@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_bg_border_square"
+    android:orientation="horizontal"
+    android:padding="@dimen/_5sdp">
+
+    <ImageView
+        android:id="@+id/ivVoucherImage"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_gallery_32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <com.bouldersmart.view.CustomTextView
+            android:id="@+id/tvVoucherName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voucher 1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            app:font_text="@string/OpenSans_Regular" />
+
+        <com.bouldersmart.view.CustomTextView
+            android:id="@+id/tvVoucherDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="10% of Shop 1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:font_text="@string/OpenSans_Regular" />
+
+        <LinearLayout
+            android:id="@+id/llVoucherPoints"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/fb_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:visibility="visible">
+
+            <com.bouldersmart.view.CustomTextView
+                android:id="@+id/tvVoucherPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:paddingStart="@dimen/_3sdp"
+                android:paddingEnd="@dimen/_3sdp"
+                android:text="1000"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                app:font_text="@string/OpenSans_Regular" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_chip_32dp" />
+        </LinearLayout>
+
+        <com.bouldersmart.view.CustomTextView
+            android:id="@+id/tvVoucherCode"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/bg_purchase"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="1000"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="gone"
+            app:font_text="@string/OpenSans_Regular" />
+
+    </LinearLayout>
+</LinearLayout>

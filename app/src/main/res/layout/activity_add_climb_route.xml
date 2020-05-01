@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <com.bouldersmart.view.CustomEditText
+            android:id="@+id/etRouteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edit_square_bg"
+            android:hint="@string/enter_route_name"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            app:font_et="@string/OpenSans_Regular" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <com.bouldersmart.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/grade_opinion"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                app:font_text="@string/OpenSans_Regular" />
+
+            <com.bouldersmart.view.CustomTextView
+                android:id="@+id/tvGrades"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/edit_square_bg"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                app:font_text="@string/OpenSans_Regular" />
+
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/sbGrades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:max="20"
+            android:min="1"
+            android:progressDrawable="@drawable/seek_track"
+            android:thumb="@drawable/seek_thumb" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:orientation="vertical">
+
+            <com.bouldersmart.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/climb_rating"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                app:font_text="@string/OpenSans_Regular" />
+
+            <com.willy.ratingbar.ScaleRatingBar
+                android:id="@+id/srbRouteAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:srb_clearRatingEnabled="true"
+                app:srb_drawableEmpty="@drawable/ic_star_empty_24dp"
+                app:srb_drawableFilled="@drawable/ic_star_filled_24dp"
+                app:srb_isIndicator="false"
+                app:srb_minimumStars="1"
+                app:srb_numStars="5"
+                app:srb_rating="4.5"
+                app:srb_starHeight="@dimen/_22sdp"
+                app:srb_starPadding="@dimen/_2ssp"
+                app:srb_starWidth="@dimen/_22sdp"
+                app:srb_stepSize="0.5" />
+
+            <com.bouldersmart.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:text="@string/photo_bita"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                app:font_text="@string/OpenSans_Regular" />
+
+            <com.bouldersmart.view.CustomButton
+                android:id="@+id/btnUploadBeta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@drawable/btn_bg_square"
+                android:text="@string/upload_photo_beta"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_14sdp"
+                app:font_btn="@string/OpenSans_Regular" />
+
+            <com.bouldersmart.view.CustomButton
+                android:id="@+id/btnSaveRoute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/btn_bg_square"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_14sdp"
+                app:font_btn="@string/OpenSans_Regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

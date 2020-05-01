@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/login_bg</color>
+    <color name="colorPrimaryDark">@color/login_bg</color>
+    <color name="colorAccent">#29A19C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fb_color">#4267B2</color>
+    <color name="black">#000000</color>
+    <color name="login_bg">#222831</color>
+    <color name="green">#118A19</color>
+    <color name="start_color">#98EE34</color>
+    <color name="end_color">#97D550</color>
+    <color name="grey">#C5BEBE</color>
+    <color name="red">#E62718</color>
+    <color name="yellow">#F7DC2D</color>
+    <color name="blue_light">#6290EE</color>
+    <color name="approach_marker_color">#0280FB</color>
+</resources>

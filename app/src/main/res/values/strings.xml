@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Boulder Smart</string>
+
+    <!--font name-->
+    <string name="OpenSans_Bold">OpenSans-Bold.ttf</string>
+    <string name="OpenSans_BoldItalic">OpenSans-BoldItalic.ttf</string>
+    <string name="OpenSans_ExtraBold">OpenSans-ExtraBold.ttf</string>
+    <string name="OpenSans_ExtraBoldItalic">OpenSans-ExtraBoldItalic.ttf</string>
+    <string name="OpenSans_Italic">OpenSans-Italic.ttf</string>
+    <string name="OpenSans_Light">OpenSans-Light.ttf</string>
+    <string name="OpenSans_LightItalic">OpenSans-LightItalic.ttf</string>
+    <string name="OpenSans_Regular">OpenSans-Regular.ttf</string>
+    <string name="OpenSans_Semibold">OpenSans-Semibold.ttf</string>
+    <string name="OpenSans_SemiboldItalic">OpenSans-SemiboldItalic.ttf</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="no_account"><![CDATA[Don\'t have an account?]]></string>
+    <string name="sign_up"><b>Sign up.</b></string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="sign_up_">Sign up</string>
+    <string name="already_account">I already have an account.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="find_climbing_locations">Find Climbing Locations</string>
+    <string name="add_climbing_location">Add New Climbing Location</string>
+    <string name="welcome_user">Welcome User!</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">Logout</string>
+
+    <string name="google_android_map_api_key">AIzaSyCRaD-kSb9C0jdLuwRGpHesl8TjuPbcj0I</string>
+    <string name="facebook_app_id">1545655315587416</string>
+    <string name="fb_login_protocol_scheme">fb1545655315587416</string>
+
+    <string name="add_location">Add Location</string>
+    <string name="enter_location_name">Enter Location Name</string>
+    <string name="select_climbing_location">Select Climing Location</string>
+    <string name="upload_cover_photo">Upload Cover Photo</string>
+    <string name="save">Save</string>
+    <string name="lbl_network_alert">Your internet is not available, please try again later</string>
+    <string name="ok">OK</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_option_image">Select Option</string>
+    <string name="routes">Routes</string>
+    <string name="list_of_routes">List of Routes and Map</string>
+    <string name="approach_directions">Approach Directions</string>
+    <string name="name_of_route">Name of Route</string>
+    <string name="retry">Retry</string>
+    <string name="currently_no_routes_available">Currently no routes available.</string>
+    <string name="add_route">Add Route</string>
+    <string name="add_new_climbing_route">Add New Climbing Route</string>
+    <string name="enter_route_name">Enter Route Name</string>
+    <string name="grade_opinion">Grade Opinion</string>
+    <string name="climb_rating">Climb Rating</string>
+    <string name="photo_bita">Photo Beta (Optional)</string>
+    <string name="upload_photo_beta">Upload Photo Beta</string>
+    <string name="climbing_beta">Climbing Beta</string>
+    <string name="comments">Comments</string>
+    <string name="add_a_comment_here">Add a comment here</string>
+    <string name="error_comment">please enter comment</string>
+    <string name="delete_route">Delete Route</string>
+    <string name="add_approach">Add Approach</string>
+    <string name="upload_approach_directions">Upload Approach Directions</string>
+    <string name="hand_hold">Hand Hold</string>
+    <string name="foot_hold">Foot Hold</string>
+    <string name="error_save_image">please add at least 1 foot hold or hand hold mark.</string>
+    <string name="submit">Submit</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_label">Forgot Password?</string>
+    <string name="error_fname">please enter first name</string>
+    <string name="error_lname">please enter last name</string>
+    <string name="error_email">please enter email</string>
+    <string name="error_password">please enter password</string>
+    <string name="error_password_length">please enter at least 6 digit password</string>
+    <string name="loading">Loading…</string>
+    <string name="re_send">Re-send</string>
+    <string name="no">No</string>
+    <string name="logout_message">Are you sure want to logout from app?</string>
+    <string name="yes">Yes</string>
+    <string name="view_vouchers">View Vouchers</string>
+    <string name="vouchers">Vouchers</string>
+    <string name="error_location_name">please enter location name</string>
+    <string name="error_select_location">please select location</string>
+    <string name="error_image">please select image</string>
+    <string name="delete">Delete</string>
+    <string name="delete_location">Are you sure want to delete location?</string>
+    <string name="error_route_name">please rnter route name</string>
+    <string name="error_select_grade">please select grade</string>
+    <string name="by">by</string>
+    <string name="delete_route_message">Are you sure want to delete route?</string>
+    <string name="beta_image_not_available">Beta image not available for</string>
+    <string name="approach_image_not_available">Approach image not available.</string>
+    <string name="route">route.</string>
+    <string name="beta_image">Beta Image</string>
+    <string name="submitted_by">submitted by</string>
+    <string name="no_approach_available">Currently no approach directions available.</string>
+    <string name="delete_approach">Are you sure want to delete approach?</string>
+    <string name="no_voucher_found">No any vouchers found.</string>
+    <string name="off">off</string>
+    <string name="purchase_voucher">Voucher Purchase</string>
+    <string name="purchase_message">Are you sure want to purchase voucher?</string>
+    <string-array name="grades">
+        <item>VB</item>
+        <item>V0-</item>
+        <item>V0</item>
+        <item>V0+</item>
+        <item>V1</item>
+        <item>V2</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+        <item>V6</item>
+        <item>V7</item>
+        <item>V8</item>
+        <item>V9</item>
+        <item>V10</item>
+        <item>V11</item>
+        <item>V12</item>
+        <item>V13</item>
+        <item>V14</item>
+        <item>V15</item>
+        <item>V16</item>
+    </string-array>
+</resources>

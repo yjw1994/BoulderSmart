@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle">
+    <!-- you can use any color you want I used here gray color-->
+    <solid android:color="@color/colorAccent" />
+    <stroke android:width="@dimen/_1ssp"
+        android:color="@color/black"/>
+    <corners android:radius="@dimen/_5sdp" />
+    <padding
+        android:bottom="@dimen/_7sdp"
+        android:left="@dimen/_7sdp"
+        android:right="@dimen/_7sdp"
+        android:top="@dimen/_7sdp" />
+</shape>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "402006655354",
+    "firebase_url": "https://bouldersmart-7eaa6.firebaseio.com",
+    "project_id": "bouldersmart-7eaa6",
+    "storage_bucket": "bouldersmart-7eaa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402006655354:android:365c060f740e6d8d3856c3",
+        "android_client_info": {
+          "package_name": "com.bouldersmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402006655354-t5nkbum7j5fmsf40pkga2vmosft8idpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bouldersmart",
+            "certificate_hash": "000b5c36a343e370cdd6db745e133502745441d4"
+          }
+        },
+        {
+          "client_id": "402006655354-t2m3llk3jdo2u7c3th21cispib0l4au4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPcRAB8uruyWbw7CLvfSO6PWCx924sbl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402006655354-t2m3llk3jdo2u7c3th21cispib0l4au4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llApproachDetails"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_bg_border_square"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/_3sdp"
+    android:weightSum="2">
+
+    <com.bouldersmart.view.CustomTextView
+        android:id="@+id/tvApproachDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_weight="1"
+        android:includeFontPadding="false"
+        android:text="00/00/0000"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11sdp"
+        app:font_text="@string/OpenSans_Regular" />
+
+    <com.bouldersmart.view.CustomTextView
+        android:id="@+id/tvNameAdded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_weight="1"
+        android:includeFontPadding="false"
+        android:text="submitted by user"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11sdp"
+        app:font_text="@string/OpenSans_Regular" />
+
+    <ImageView
+        android:id="@+id/ivDeleteApproach"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_delete_32dp" />
+</LinearLayout>
